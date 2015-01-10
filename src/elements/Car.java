@@ -21,7 +21,7 @@ public class Car{
 
     public void run() {
         if(this.direction == 1) {
-            this.possition.x++;
+            this.possition.x--;
         } else if(this.direction == 2) {
             this.possition.y++;
         } else if (this.direction ==3 ) {
